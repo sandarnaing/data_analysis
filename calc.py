@@ -2,7 +2,7 @@
 # '1 + 2' -> 3, or '1 - 2' -> -1. hello
 def compute(expression):
     num0, operator, num2 = expression.split(' ')
-    num0, num2 = float(num0), float(num2)
+    num0, num2 = int(num0), int(num2)
     if operator == '+':
         return num0 + num2
     elif operator == '-':
