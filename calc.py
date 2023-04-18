@@ -13,7 +13,7 @@ def compute(expression):
     elif operator == '/':
         return num0 / num1
     else:
-        print('unknown operator!')
+        print('unknown operator! Only +-/* available.')
         return None
 
 #this is a comment
